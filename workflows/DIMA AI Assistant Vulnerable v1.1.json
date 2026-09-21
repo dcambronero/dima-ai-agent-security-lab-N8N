@@ -3,15 +3,16 @@
   "nodes": [
     {
       "parameters": {
+        "public": true,
         "options": {}
       },
       "type": "@n8n/n8n-nodes-langchain.chatTrigger",
       "typeVersion": 1.5,
       "position": [
-        0,
-        0
+        -288,
+        16
       ],
-      "id": "44dfb6ff-6658-42a9-8de0-c9554a1ba64b",
+      "id": "2e0fe133-744a-45a6-afa6-ce84acc8cfff",
       "name": "When chat message received",
       "webhookId": "bf0ea31d-68b2-4e0d-b9b7-b27c4f980e62"
     },
@@ -24,10 +25,10 @@
       "type": "@n8n/n8n-nodes-langchain.agent",
       "typeVersion": 3.1,
       "position": [
-        224,
-        0
+        -64,
+        16
       ],
-      "id": "7b081a13-99de-4105-aeac-0cce122109b9",
+      "id": "4f47fd87-fb26-4167-9016-22704f222eda",
       "name": "AI Agent"
     },
     {
@@ -44,10 +45,10 @@
       "type": "@n8n/n8n-nodes-langchain.lmChatOpenAi",
       "typeVersion": 1.3,
       "position": [
-        96,
-        208
+        -192,
+        224
       ],
-      "id": "1add18c4-f227-49b9-b7b4-468bf9ae0814",
+      "id": "84d9309d-2583-49fa-b6a9-23eefc209a5f",
       "name": "OpenAI Chat Model",
       "credentials": {
         "openAiApi": {
@@ -67,10 +68,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolCode",
       "typeVersion": 1.3,
       "position": [
-        288,
-        256
+        608,
+        64
       ],
-      "id": "8276255c-9897-444d-b0f8-7f5fafc9b9a4",
+      "id": "687472d0-8733-45a0-b200-ec2b6676d1f0",
       "name": "Directorio Empleados DIMA"
     },
     {
@@ -84,10 +85,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolCode",
       "typeVersion": 1.3,
       "position": [
-        608,
-        272
+        544,
+        256
       ],
-      "id": "41a66a32-b404-428f-9123-c4ef213c6dfa",
+      "id": "9600aaf1-10bf-4aec-8fdf-470f88598e71",
       "name": "Correo Corporativo DIMA"
     },
     {
@@ -101,10 +102,10 @@
       "type": "@n8n/n8n-nodes-langchain.toolCode",
       "typeVersion": 1.3,
       "position": [
-        416,
-        320
+        224,
+        288
       ],
-      "id": "cb347540-724d-4515-9a4e-9b9a7dc314de",
+      "id": "0e954488-2a32-412f-a914-8fcb3431db00",
       "name": "Base Conocimiento DIMA"
     },
     {
@@ -114,10 +115,10 @@
       "type": "@n8n/n8n-nodes-langchain.memoryBufferWindow",
       "typeVersion": 1.4,
       "position": [
-        480,
-        269.3500061035156
+        16,
+        256
       ],
-      "id": "b45bf2a6-73b9-4244-895e-c2cb351e04fa",
+      "id": "3d1495fb-1f9b-44a6-a6d2-ebedf76ee48d",
       "name": "Simple Memory"
     }
   ],
@@ -195,12 +196,11 @@
     "executionOrder": "v1",
     "binaryMode": "separate"
   },
-  "versionId": "7b7355d9-a5ba-4e49-9f0a-b6db197498de",
+  "versionId": "1269d148-e010-4ebe-b923-de792b3011a3",
   "meta": {
-    "templateCredsSetupCompleted": true,
     "instanceId": "f1dcba32a08506f9a7fe6d33cfe5781d04c8a668e74e9b411be9018bc92dda68"
   },
   "nodeGroups": [],
-  "id": "6pyLJrJo0cj0FhD4",
+  "id": "uiuetSvtiOqLFRaL",
   "tags": []
 }

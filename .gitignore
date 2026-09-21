@@ -7,3 +7,11 @@ n8n-data/
 node_modules/
 
 .DS_Store
+
+redteam-env/
+
+__pycache__/
+
+*.pyc
+
+red-results.json
