@@ -21,8 +21,11 @@ services:
       - TZ=America/Costa_Rica
 
     volumes:
-      - ./n8n-data:/home/node/.n8n
+      - n8n_data:/home/node/.n8n
       - ./data:/data
+
+volumes:
+  n8n_data:
 
 networks:
   default:
